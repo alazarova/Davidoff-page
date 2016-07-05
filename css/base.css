@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: 'GothaLig',sans-serif;
+	background-color: #000;
+}
+.wrapper{
+	height: auto;
+}footer{
+	background-color:#181818;
+	text-align: center;
+}
+.footer-nav{
+	padding: 46px;
+}
+footer a{
+	text-decoration: none;
+	color:#989898;
+	font-size: 14px;
+    border-right: 1px solid #808080;
+	display: inline-block;
+    font-family: 'gotham-thin-webfont',sans-serif;
+	padding:0 20px;
+}
+footer a:last-child{
+	border-right:none;
+}
+.footer-slogn{
+	background-color: #fff;
+    padding: 22px 0;
+}
+.footer-slogn p{
+	font-family: 'Gotham-Book',sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}

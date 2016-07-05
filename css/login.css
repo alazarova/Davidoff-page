@@ -1,0 +1,100 @@
+.wrapper{
+	background-image: url("../images/bg_login.png");
+}
+.main-nav{
+	text-align: center;
+	padding: 36px 0 140px 0;
+}
+.main-nav a{
+	text-decoration: none;
+    color: #979797;
+	position: relative;
+	font-size: 15px;
+	padding: 10px;
+	font-family: 'Gotham-Book',sans-serif;
+}
+.main-nav a:before{
+	content:"";
+	position: absolute;
+	height: 15px;
+	border-right:1px solid #979797;
+	right: -1px;
+	top:50%;
+	margin-top: -8px;
+}
+.main-nav a:hover{
+	color:#fff;
+}
+.main-nav a:last-child:before{
+	border-right: none;
+}
+.form-content{
+	text-align: center;
+}
+.form-content h1{
+	color:#c0c0c0;
+	font-family: 'gotham-thin-webfont',sans-serif;
+	font-size: 57px;
+	padding-bottom: 45px;
+ 	font-weight: 500;
+}
+.form-content input{
+	width: 295px;
+    height: 40px;
+    padding-left: 10px;
+	background-color: #111;
+    padding-left: 10px;
+    border: none;
+	margin-bottom: 10px
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #545454;
+	font-weight: 600;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #545454;
+  font-weight: 600;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #545454;
+  font-weight: 600;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #545454;
+   font-weight: 600;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color:    #545454;
+  font-weight: 600;
+}
+.form-content button{
+	padding: 14px 35px 14px 35px;
+	background-color: #333333;
+	color: #cecece;
+	font-size: 20px;
+	font-family: 'gotham-thin-webfont',sans-serif;
+	border:none;
+	margin-top: 14px;
+}
+.text-content{
+	text-align: center;
+	font-family: 'Gotham-Book',sans-serif;
+	padding: 37px 0 250px 0;
+}
+.text-content h2{
+	color: #9e9e9e;
+	font-size: 14px;
+	padding-bottom: 33px;
+}
+.text-content p{
+	color: #555555;
+	font-size: 13px;
+	padding-bottom: 35px;
+}
+.text-content h3{
+	color:#969696;
+	font-size: 13px;
+}
+footer{
+	background-color: rgba(24, 24, 24, 0.43);
+}
